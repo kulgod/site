@@ -1,0 +1,54 @@
+html {
+  min-height: 100%;
+  margin: 0px;
+}
+
+body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0;
+  background-color: rgb(246,249,252);
+}
+
+.content {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.container-nav {
+  position: absolute;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  min-height: 100%;
+  width: 20%;
+}
+
+.side-nav {
+  position: absolute;
+  min-width: 80%;
+  padding-left: 30%;
+  margin: 5%;
+  top: 20%;
+  z-index: 1;
+  left: 0;
+  border-right: .5px;
+  border-right-style: solid;
+  border-right-color: rgb(139, 152, 169);
+}
+
+.side-nav a {
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: rgb(139, 152, 169);
+  font-family: "Courier New";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.side-nav a:hover {
+  font-weight: 600;
+}
