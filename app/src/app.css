@@ -1,0 +1,73 @@
+html {
+  min-height: 100%;
+  margin: 0px;
+}
+
+body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0;
+  background-color: #F7F9FF;
+}
+
+.content {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.container-nav {
+  position: absolute;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  min-height: 100%;
+  width: 20%;
+}
+
+.side-nav {
+  position: absolute;
+  min-width: 80%;
+  padding-left: 30%;
+  margin: 5%;
+  z-index: 1;
+  left: 0;
+  border-right: .5px;
+  border-right-style: solid;
+  border-right-color: #495867;
+}
+
+.side-nav a {
+  padding: 8px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: #495867;
+  font-family: "Courier New";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.side-nav a:hover {
+  font-weight: 600;
+}
+
+.content-header {
+  font-family: "Courier";
+  font-size: 28px;
+}
+
+.container-budget {
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 10%;
+  padding-left: 10%;
+  min-height: 100%;
+  width: 80%;
+}
+
+.container-plaid {
+  position: absolute;
+  width: 100%;
+  align: center;
+}

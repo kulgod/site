@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>abhishek</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="{{url_for('static', filename='index.js')}}"></script>
+    <script src="{{url_for('static', filename='budget.js')}}/"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='app.css')}}"/>
+  </head>
+  <body>
+    <div class="content">
+      <div class="container-nav">
+        <div class="side-nav">
+        <a href="/about">abhishek</a>
+        <a href="/thoughts">thoughts</a>
+        <a href="/bookshelf">bookshelf</a>
+        <a href="/budget">budget</a>
+        </div>
+      </div>
+      <div class="container-budget">
+        <h1>Budgeting Experiment</h1>
+        <p>This is a side project to see if I can budget programmatically</p>
+        <div class="container-plaid-form">
+          <form id='plaid-link-form'></form>
+          <script
+              src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"
+              data-client-name="Puff"
+              data-form-id="plaid-link-form"
+              data-key="72992b16147a7b0433777d2f16fdb4"
+              data-product="auth"
+              data-env="sandbox">
+          </script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
